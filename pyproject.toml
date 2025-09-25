@@ -1,0 +1,18 @@
+[project]
+name = "mini-rag-system"
+version = "0.1.0"
+description = "A mini RAG system to answer questions about movie plots."
+requires-python = ">=3.9"
+
+# Core dependencies for the project
+dependencies = [
+    "pandas",                 # For loading the CSV data
+    "chromadb",               # The in-memory vector store
+    "fastembed",              # For fast and efficient text embeddings
+    "onnxruntime",            # Recommended for fastembed performance
+    "openai",                 # To interact with the OpenAI API
+    "langchain",              # For the text splitter utility
+    "python-dotenv",          # To manage the API key from a .env file
+    "ipython",
+    "ipywidgets",
+]
