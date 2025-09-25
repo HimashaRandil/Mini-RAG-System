@@ -73,7 +73,7 @@ uv venv
 # On macOS/Linux: source .venv/bin/activate
 
 # Install all packages from pyproject.toml
-u .
+uv sync
 ```
 
 ### 3. Configure Environment Variables
@@ -132,9 +132,3 @@ jupyter notebook
 4. Use the interactive text box at the end of the notebook to enter your questions and get answers.
 
 ---
-
-## 📹 Video Walkthrough
-
-A 2-minute video that explains the end-to-end pipeline and demonstrates a live query.
-
-*(Placeholder: Insert your Loom video link here)*
